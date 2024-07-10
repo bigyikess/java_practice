@@ -64,3 +64,20 @@ while (counter > 0) {
 }
 
 console.log("Happy New Year!")
+
+// Object (like dictionaries in Python)
+let person = {
+    name: "Jim",
+    age: 67,
+    isStudent: true
+}
+
+console.log(person["name"])
+console.log(person.name)
+
+// Functions
+function cube(x) {
+    return x ** 3;
+}
+
+console.log(cube(123));
